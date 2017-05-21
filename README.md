@@ -1,5 +1,5 @@
-# nginx-rtmp-vod
-Simple rtmp server that stream /dev/video0 
+# nginx-rtmp-vod-ffmpeg
+Simple RTMP server that stream /dev/video0 
 ## setup
 #### docker-compose
 `docker-compose up`

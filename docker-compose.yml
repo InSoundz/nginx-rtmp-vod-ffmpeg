@@ -5,9 +5,6 @@ services:
       build:
         context: .
 
-      restart: always
-      container_name: nginx-rtmp-vod-ffmpeg
-
       volumes:
         - ./nginx.conf.webcam:/etc/nginx/nginx.conf
 
